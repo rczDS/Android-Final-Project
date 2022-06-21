@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <TextView
+        android:id="@+id/newuserid_text"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="新用户名"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        />
+    <TextView
+        android:id="@+id/newpassword_text"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@id/newuserid_text"
+        android:gravity="center"
+        android:text="新密码"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:id="@+id/newnickname_text"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newpassword_text"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="昵称"
+        android:layout_marginStart="30dp"
+        />
+    <EditText
+        android:id="@+id/newuserid_edittext"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@id/newuserid_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="请输入邮箱注册账号"
+        />
+
+    <EditText
+        android:id="@+id/newpassword_edittext"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="密码应为8位数字"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@id/newpassword_text"
+        app:layout_constraintTop_toBottomOf="@id/newuserid_edittext" />
+    <EditText
+        android:id="@+id/nickname_edittext"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@id/newnickname_text"
+        app:layout_constraintTop_toBottomOf="@id/newpassword_text"
+        android:hint="在此输入用户昵称"
+        />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickRegister"
+        android:text="注册新账户"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newpassword_edittext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

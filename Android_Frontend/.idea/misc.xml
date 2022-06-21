@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2045" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2045" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2045" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2045" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2045" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/active_display_template.xml" value="0.19583333333333333" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/active_reply_template.xml" value="0.5" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_all_active.xml" value="0.38385416666666666" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_draft.xml" value="0.35260416666666666" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_navigation.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_new_message.xml" value="0.35260416666666666" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_personal.xml" value="0.3333333333333333" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_post_active.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/activity_user_info.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/draft_template.xml" value="0.4118004866180049" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/fragment_dashboard.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/fragment_notifications.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/like_template.xml" value="0.1" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/new_message_template.xml" value="0.3515625" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/reply_template.xml" value="0.19583333333333333" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/layout/row_item.xml" value="0.19583333333333333" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/xml/network_security_config.xml" value="0.196875" />
+        <entry key="..\:/MyApplication/MyApplication/app/src/main/res/xml/provider_paths.xml" value="0.3515625" />
+        <entry key="..\:/Users/15434/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_log_in.xml" value="0.136" />
+        <entry key="..\:/Users/15434/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/15434/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_register.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
